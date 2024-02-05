@@ -1,6 +1,6 @@
 <?php
 
-namespace Hacoidev\CachingModel\Exceptions;
+namespace Tannhatcms\CachingModel\Exceptions;
 
 use Exception;
 

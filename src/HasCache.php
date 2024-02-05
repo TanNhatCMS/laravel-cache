@@ -1,11 +1,11 @@
 <?php
 
-namespace Hacoidev\CachingModel;
+namespace Tannhatcms\CachingModel;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
-use Hacoidev\CachingModel\Contracts\BuilderInterface;
-use Hacoidev\CachingModel\Contracts\Cacheable;
+use Tannhatcms\CachingModel\Contracts\BuilderInterface;
+use Tannhatcms\CachingModel\Contracts\Cacheable;
 
 trait HasCache
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Hacoidev\CachingModel;
+namespace Tannhatcms\CachingModel;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
-use Hacoidev\CachingModel\Contracts\BuilderInterface;
+use Tannhatcms\CachingModel\Contracts\BuilderInterface;
 use Closure;
-use Hacoidev\CachingModel\Contracts\Cacheable;
-use Hacoidev\CachingModel\Exceptions\UnsupportedModelException;
+use Tannhatcms\CachingModel\Contracts\Cacheable;
+use Tannhatcms\CachingModel\Exceptions\UnsupportedModelException;
 
 class CacheQueryBuilder implements BuilderInterface
 {

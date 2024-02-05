@@ -1,8 +1,8 @@
 <?php
 
-namespace Hacoidev\CachingModel\Contracts;
+namespace Tannhatcms\CachingModel\Contracts;
 
-use Hacoidev\CachingModel\Contracts\BuilderInterface;
+use Tannhatcms\CachingModel\Contracts\BuilderInterface;
 
 interface Cacheable
 {
